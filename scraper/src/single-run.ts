@@ -17,6 +17,13 @@ const argv = yargs(hideBin(process.argv))
     describe:
       "Path to the JSON file or JSON string containing network operators. E.g. --elcom-numbers-json=[525,19]",
   })
+  .option("year", {
+    type: "string",
+    demandOption: false,
+    default: "2024",
+    describe:
+      "The year for which the electricty tariffs should be parsed. E.g. --year=2024",
+    })
   .option("prompt-file", {
     type: "string",
     demandOption: true,
@@ -53,6 +60,7 @@ const outputFile = argv["output-file"];
 const databaseDir = argv["database-dir"];
 const outputDir = argv["output-dir"];
 const schemaDir = argv["schema-dir"];
+const year = argv["year"];
 
 (async () => {
   for (const networkOperator of networkOperators) {
@@ -64,6 +72,7 @@ const schemaDir = argv["schema-dir"];
         databaseDir,
         outputDir,
         schemaDir,
+        year,
       ).catch((e) => {
         console.error(
           "Could not retrieve network operator. Proceeding to the next operator.",

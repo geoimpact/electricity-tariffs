@@ -174,6 +174,7 @@ async function processNetworkOperator(
   databaseDir: string,
   outputDir: string,
   schemaDir: string,
+  year: string,
 ) {
   console.log(
     `Processing network operator ${elcomNumber} with prompt ${promptFilePath}`,
@@ -188,7 +189,7 @@ async function processNetworkOperator(
       console.log(
         `Downloading PDF for network operator ${networkOperator} to ${databaseDirPath}`,
       );
-      const res = await scrapePDF(networkOperator, 2024, databaseDir);
+      const res = await scrapePDF(networkOperator, parseInt(year, 10), databaseDir);
       console.log(`Prompt OpenAI with the PDF and save the raw output`, res);
 
       const prompt = fs.readFileSync(
@@ -196,7 +197,7 @@ async function processNetworkOperator(
         "utf8",
       );
       const inputFile = path.resolve(
-        `${databaseDirPath}/pdf/2024/operator_${networkOperator}_Tarifblatt_2024.pdf`,
+        `${databaseDirPath}/pdf/${year}/operator_${networkOperator}_Tarifblatt_2024.pdf`,
       );
       const resFileSearch = await searchFile(
         {
@@ -214,7 +215,7 @@ async function processNetworkOperator(
         },
         [inputFile],
         {
-          name: "Electricity Tariffs 2024",
+          name: `Electricity Tariffs ${year}`,
           // Manage the costs with a shorer expiry: https://platform.openai.com/docs/assistants/tools/file-search
           expires_after: {
             anchor: "last_active_at",
@@ -285,7 +286,7 @@ async function processNetworkOperator(
           },
           [inputFile],
           {
-            name: "Electricity Tariffs 2024",
+            name: `Electricity Tariffs ${year}`,
             // Manage the costs with a shorer expiry: https://platform.openai.com/docs/assistants/tools/file-search
             expires_after: {
               anchor: "last_active_at",

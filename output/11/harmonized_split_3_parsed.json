@@ -2,9 +2,9 @@
     "Netznutzung": {
         "Sommer": {
             "Montag-Freitag": {
-                "Von 00:00 bis 01:00 in Rp./kWh": 0,
-                "Von 01:00 bis 02:00 in Rp./kWh": 0,
-                "Von 02:00 bis 03:00 in Rp./kWh": 0,
+                "Von 00:00 bis 01:00 in Rp./kWh": 17.85,
+                "Von 01:00 bis 02:00 in Rp./kWh": 14.8,
+                "Von 02:00 bis 03:00 in Rp./kWh": 14.6,
                 "Von 03:00 bis 04:00 in Rp./kWh": 0,
                 "Von 04:00 bis 05:00 in Rp./kWh": 0,
                 "Von 05:00 bis 06:00 in Rp./kWh": 0,
@@ -28,9 +28,9 @@
                 "Von 23:00 bis 00:00 in Rp./kWh": 0
             },
             "Samstag": {
-                "Von 00:00 bis 01:00 in Rp./kWh": 0,
-                "Von 01:00 bis 02:00 in Rp./kWh": 0,
-                "Von 02:00 bis 03:00 in Rp./kWh": 0,
+                "Von 00:00 bis 01:00 in Rp./kWh": 20.85,
+                "Von 01:00 bis 02:00 in Rp./kWh": 17.8,
+                "Von 02:00 bis 03:00 in Rp./kWh": 17.6,
                 "Von 03:00 bis 04:00 in Rp./kWh": 0,
                 "Von 04:00 bis 05:00 in Rp./kWh": 0,
                 "Von 05:00 bis 06:00 in Rp./kWh": 0,
@@ -54,9 +54,9 @@
                 "Von 23:00 bis 00:00 in Rp./kWh": 0
             },
             "Sonntag": {
-                "Von 00:00 bis 01:00 in Rp./kWh": 0,
-                "Von 01:00 bis 02:00 in Rp./kWh": 0,
-                "Von 02:00 bis 03:00 in Rp./kWh": 0,
+                "Von 00:00 bis 01:00 in Rp./kWh": 20.85,
+                "Von 01:00 bis 02:00 in Rp./kWh": 17.8,
+                "Von 02:00 bis 03:00 in Rp./kWh": 17.6,
                 "Von 03:00 bis 04:00 in Rp./kWh": 0,
                 "Von 04:00 bis 05:00 in Rp./kWh": 0,
                 "Von 05:00 bis 06:00 in Rp./kWh": 0,

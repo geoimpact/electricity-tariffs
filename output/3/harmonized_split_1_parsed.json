@@ -1,334 +1,280 @@
 {
-    "Netzbetreiber": "Unbekannt",
+    "Netzbetreiber": "SEC",
     "Produkte": [
         {
-            "Name": "TOPAZE",
+            "Name": "SEC SIMPLE",
             "Beschreibung": "",
             "Komponenten": [
                 {
-                    "Name": "Energie",
-                    "Beschreibung": "",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Energie",
-                    "Menge": "",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": ""
-                },
-                {
-                    "Name": "Hochtarif",
+                    "Name": "Energie Hochtarif",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Energie",
                     "Menge": "13.96",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Niedertarif",
+                    "Name": "Energie Niedertarif",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Energie",
                     "Menge": "12.88",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Netz",
-                    "Beschreibung": "",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": ""
-                },
-                {
-                    "Name": "Hochtarif",
+                    "Name": "Netz Hochtarif",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Netznutzung",
                     "Menge": "13.40",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Niedertarif",
+                    "Name": "Netz Niedertarif",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Netznutzung",
                     "Menge": "8.10",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Steuern",
-                    "Beschreibung": "",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "weitere Abgaben",
-                    "Menge": "",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": ""
-                },
-                {
-                    "Name": "Swissgrid SA - Services systèmes",
+                    "Name": "Steuer Swissgrid SA - Services systèmes",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
                     "Menge": "0.75",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "RPC et protection des eaux et poissons",
+                    "Name": "Steuer RPC et protection des eaux et poissons",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
                     "Menge": "2.30",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Réserve d’électricité de la Confédération",
+                    "Name": "Steuer Réserve d’électricité de la Confédération",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
                     "Menge": "1.20",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "PCP",
+                    "Name": "Steuer PCP",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
                     "Menge": "1.20",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "Monatlicher Grundpreis",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/Monat",
+                    "Unterkategorie": "Grundpreis Energie",
+                    "Menge": "2.00",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 }
             ],
             "Gültigkeit": "",
             "Verbrauchskategorie": "",
-            "Verbrauchstyp": "weitere",
-            "Netzebene": "weitere",
-            "Standardprodukt": "Nein"
+            "Verbrauchstyp": "Haushalt",
+            "Netzebene": "Niederspannung",
+            "Standardprodukt": "Ja"
         },
         {
-            "Name": "AMBRE",
+            "Name": "SEC DOUBLE",
             "Beschreibung": "",
             "Komponenten": [
                 {
-                    "Name": "Energie",
+                    "Name": "Energie Hochtarif",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Energie",
-                    "Menge": "",
-                    "Tariftyp": "Doppeltarif",
+                    "Menge": "15.54",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Hochtarif",
+                    "Name": "Energie Niedertarif",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Energie",
-                    "Menge": "18.48",
-                    "Tariftyp": "Doppeltarif",
+                    "Menge": "12.87",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Niedertarif",
-                    "Beschreibung": "",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Energie",
-                    "Menge": "17.40",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": ""
-                },
-                {
-                    "Name": "Netz",
-                    "Beschreibung": "",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": ""
-                },
-                {
-                    "Name": "Hochtarif",
+                    "Name": "Netz Hochtarif",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Netznutzung",
                     "Menge": "13.70",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Niedertarif",
+                    "Name": "Netz Niedertarif",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Netznutzung",
                     "Menge": "7.54",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Steuern",
-                    "Beschreibung": "",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "weitere Abgaben",
-                    "Menge": "",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": ""
-                },
-                {
-                    "Name": "Swissgrid SA - Services systèmes",
+                    "Name": "Steuer Swissgrid SA - Services systèmes",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
                     "Menge": "0.75",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "RPC et protection des eaux et poissons",
+                    "Name": "Steuer RPC et protection des eaux et poissons",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
                     "Menge": "2.30",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Réserve d’électricité de la Confédération",
+                    "Name": "Steuer Réserve d’électricité de la Confédération",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
                     "Menge": "1.20",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "PCP",
+                    "Name": "Steuer PCP",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
                     "Menge": "1.20",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "Monatlicher Grundpreis",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/Monat",
+                    "Unterkategorie": "Grundpreis Energie",
+                    "Menge": "2.00",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 }
             ],
             "Gültigkeit": "",
             "Verbrauchskategorie": "",
-            "Verbrauchstyp": "weitere",
-            "Netzebene": "weitere",
+            "Verbrauchstyp": "Haushalt",
+            "Netzebene": "Niederspannung",
             "Standardprodukt": "Nein"
         },
         {
-            "Name": "OPALE",
+            "Name": "SEC INTERRUPTIBLE",
             "Beschreibung": "",
             "Komponenten": [
                 {
-                    "Name": "Energie",
+                    "Name": "Energie Hochtarif",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Energie",
-                    "Menge": "",
-                    "Tariftyp": "Doppeltarif",
+                    "Menge": "14.67",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Hochtarif",
+                    "Name": "Energie Niedertarif",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Energie",
-                    "Menge": "13.66",
-                    "Tariftyp": "Doppeltarif",
+                    "Menge": "12.57",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Niedertarif",
-                    "Beschreibung": "",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Energie",
-                    "Menge": "12.58",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": ""
-                },
-                {
-                    "Name": "Netz",
-                    "Beschreibung": "",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": ""
-                },
-                {
-                    "Name": "Hochtarif",
+                    "Name": "Netz Hochtarif",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Netznutzung",
                     "Menge": "9.65",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Niedertarif",
+                    "Name": "Netz Niedertarif",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Netznutzung",
                     "Menge": "7.54",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Steuern",
-                    "Beschreibung": "",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "weitere Abgaben",
-                    "Menge": "",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": ""
-                },
-                {
-                    "Name": "Swissgrid SA - Services systèmes",
+                    "Name": "Steuer Swissgrid SA - Services systèmes",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
                     "Menge": "0.75",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "RPC et protection des eaux et poissons",
+                    "Name": "Steuer RPC et protection des eaux et poissons",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
                     "Menge": "2.30",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Réserve d’électricité de la Confédération",
+                    "Name": "Steuer Réserve d’électricité de la Confédération",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
                     "Menge": "1.20",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "PCP",
+                    "Name": "Steuer PCP",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
                     "Menge": "1.20",
-                    "Tariftyp": "Doppeltarif",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "Monatlicher Grundpreis",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/Monat",
+                    "Unterkategorie": "Grundpreis Energie",
+                    "Menge": "0.00",
+                    "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 }
             ],
             "Gültigkeit": "",
             "Verbrauchskategorie": "",
-            "Verbrauchstyp": "weitere",
-            "Netzebene": "weitere",
+            "Verbrauchstyp": "Haushalt",
+            "Netzebene": "Niederspannung",
             "Standardprodukt": "Nein"
         }
     ]

@@ -2,223 +2,115 @@
     "Netzbetreiber": "CKW",
     "Produkte": [
         {
-            "Name": "CKW ClassicStrom E",
-            "Beschreibung": "Einfachtarif",
+            "Name": "CKW BudgetStrom E",
+            "Beschreibung": "",
             "Komponenten": [
                 {
                     "Name": "Energie",
-                    "Beschreibung": "Energiepreise für den Tarif",
+                    "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Energie",
-                    "Menge": "highTariff",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "24/7"
-                },
-                {
-                    "Name": "Energie",
-                    "Beschreibung": "Energiepreise für den Tarif",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Energie",
-                    "Menge": "lowTariff",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "24/7"
+                    "Menge": "",
+                    "Tariftyp": "Doppeltarif",
+                    "Tarifzeiten": "Hochtarif: 15.50, Niedertarif: 12.90"
                 },
                 {
                     "Name": "Netz",
-                    "Beschreibung": "Netzkosten für den Tarif",
+                    "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Netznutzung",
-                    "Menge": "highTariff",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "24/7"
-                },
-                {
-                    "Name": "Netz",
-                    "Beschreibung": "Netzkosten für den Tarif",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "lowTariff",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "24/7"
+                    "Menge": "",
+                    "Tariftyp": "Doppeltarif",
+                    "Tarifzeiten": "Hochtarif: 9.40, Niedertarif: 8.70"
                 },
                 {
                     "Name": "Steuern",
-                    "Beschreibung": "Netzzuschlag",
+                    "Beschreibung": "",
                     "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Netzzuschlag (gem. Art. 35 EnG)",
-                    "Menge": "netzzuschlag",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "24/7"
-                },
-                {
-                    "Name": "Steuern",
-                    "Beschreibung": "Konzessionsabgabe",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Konzessionsgebühren",
-                    "Menge": "highTariff",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "24/7"
-                },
-                {
-                    "Name": "Steuern",
-                    "Beschreibung": "Konzessionsabgabe",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Konzessionsgebühren",
-                    "Menge": "lowTariff",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "24/7"
+                    "Unterkategorie": "weitere Abgaben",
+                    "Menge": "",
+                    "Tariftyp": "Doppeltarif",
+                    "Tarifzeiten": "Netzzuschlag: 2.30, Konzessionsabgabe Hochtarif: 1.14, Niedertarif: 1.07"
                 }
             ],
-            "Gültigkeit": "unbestimmt",
-            "Verbrauchskategorie": "Haushalt",
-            "Verbrauchstyp": "Haushalt",
-            "Netzebene": "Niederspannung",
-            "Standardprodukt": "Ja"
-        },
-        {
-            "Name": "CKW ClassicStrom D",
-            "Beschreibung": "Doppeltarif",
-            "Komponenten": [
-                {
-                    "Name": "Energie",
-                    "Beschreibung": "Energiepreise für den Tarif",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Energie",
-                    "Menge": "highTariff",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Hochtarif: 07–22 Uhr, Niedertarif: 22–07 Uhr"
-                },
-                {
-                    "Name": "Energie",
-                    "Beschreibung": "Energiepreise für den Tarif",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Energie",
-                    "Menge": "lowTariff",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Hochtarif: 07–22 Uhr, Niedertarif: 22–07 Uhr"
-                },
-                {
-                    "Name": "Netz",
-                    "Beschreibung": "Netzkosten für den Tarif",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "highTariff",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Hochtarif: 07–22 Uhr, Niedertarif: 22–07 Uhr"
-                },
-                {
-                    "Name": "Netz",
-                    "Beschreibung": "Netzkosten für den Tarif",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "lowTariff",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Hochtarif: 07–22 Uhr, Niedertarif: 22–07 Uhr"
-                },
-                {
-                    "Name": "Steuern",
-                    "Beschreibung": "Netzzuschlag",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Netzzuschlag (gem. Art. 35 EnG)",
-                    "Menge": "netzzuschlag",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Hochtarif: 07–22 Uhr, Niedertarif: 22–07 Uhr"
-                },
-                {
-                    "Name": "Steuern",
-                    "Beschreibung": "Konzessionsabgabe",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Konzessionsgebühren",
-                    "Menge": "highTariff",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Hochtarif: 07–22 Uhr, Niedertarif: 22–07 Uhr"
-                },
-                {
-                    "Name": "Steuern",
-                    "Beschreibung": "Konzessionsabgabe",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Konzessionsgebühren",
-                    "Menge": "lowTariff",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Hochtarif: 07–22 Uhr, Niedertarif: 22–07 Uhr"
-                }
-            ],
-            "Gültigkeit": "unbestimmt",
-            "Verbrauchskategorie": "Haushalt",
+            "Gültigkeit": "",
+            "Verbrauchskategorie": "",
             "Verbrauchstyp": "Haushalt",
             "Netzebene": "Niederspannung",
             "Standardprodukt": "Nein"
         },
         {
-            "Name": "CKW ClassicStrom D7",
-            "Beschreibung": "Doppeltarif sperrbar",
+            "Name": "CKW ClassicStrom E",
+            "Beschreibung": "",
             "Komponenten": [
                 {
                     "Name": "Energie",
-                    "Beschreibung": "Energiepreise für den Tarif",
+                    "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Energie",
-                    "Menge": "highTariff",
+                    "Menge": "",
                     "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Hochtarif: 07–22 Uhr, Niedertarif: 22–07 Uhr"
-                },
-                {
-                    "Name": "Energie",
-                    "Beschreibung": "Energiepreise für den Tarif",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Energie",
-                    "Menge": "lowTariff",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Hochtarif: 07–22 Uhr, Niedertarif: 22–07 Uhr"
+                    "Tarifzeiten": "Hochtarif: 16.20, Niedertarif: 13.60"
                 },
                 {
                     "Name": "Netz",
-                    "Beschreibung": "Netzkosten für den Tarif",
+                    "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Netznutzung",
-                    "Menge": "highTariff",
+                    "Menge": "",
                     "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Hochtarif: 07–22 Uhr, Niedertarif: 22–07 Uhr"
-                },
-                {
-                    "Name": "Netz",
-                    "Beschreibung": "Netzkosten für den Tarif",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "lowTariff",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Hochtarif: 07–22 Uhr, Niedertarif: 22–07 Uhr"
+                    "Tarifzeiten": "Hochtarif: 9.40, Niedertarif: 8.70"
                 },
                 {
                     "Name": "Steuern",
-                    "Beschreibung": "Netzzuschlag",
+                    "Beschreibung": "",
                     "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Netzzuschlag (gem. Art. 35 EnG)",
-                    "Menge": "netzzuschlag",
+                    "Unterkategorie": "weitere Abgaben",
+                    "Menge": "",
                     "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Hochtarif: 07–22 Uhr, Niedertarif: 22–07 Uhr"
-                },
-                {
-                    "Name": "Steuern",
-                    "Beschreibung": "Konzessionsabgabe",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Konzessionsgebühren",
-                    "Menge": "highTariff",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Hochtarif: 07–22 Uhr, Niedertarif: 22–07 Uhr"
-                },
-                {
-                    "Name": "Steuern",
-                    "Beschreibung": "Konzessionsabgabe",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Konzessionsgebühren",
-                    "Menge": "lowTariff",
-                    "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Hochtarif: 07–22 Uhr, Niedertarif: 22–07 Uhr"
+                    "Tarifzeiten": "Netzzuschlag: 2.30, Konzessionsabgabe Hochtarif: 1.14, Niedertarif: 1.07"
                 }
             ],
-            "Gültigkeit": "unbestimmt",
-            "Verbrauchskategorie": "Haushalt",
+            "Gültigkeit": "",
+            "Verbrauchskategorie": "",
+            "Verbrauchstyp": "Haushalt",
+            "Netzebene": "Niederspannung",
+            "Standardprodukt": "Nein"
+        },
+        {
+            "Name": "CKW ÖBStrom E",
+            "Beschreibung": "",
+            "Komponenten": [
+                {
+                    "Name": "Energie",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Energie",
+                    "Menge": "",
+                    "Tariftyp": "Doppeltarif",
+                    "Tarifzeiten": "Hochtarif: 14.90, Niedertarif: 12.78"
+                },
+                {
+                    "Name": "Netz",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "",
+                    "Tariftyp": "Doppeltarif",
+                    "Tarifzeiten": "Hochtarif: 6.42, Niedertarif: 5.93"
+                },
+                {
+                    "Name": "Steuern",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "weitere Abgaben",
+                    "Menge": "",
+                    "Tariftyp": "Doppeltarif",
+                    "Tarifzeiten": "Netzzuschlag: 2.30"
+                }
+            ],
+            "Gültigkeit": "",
+            "Verbrauchskategorie": "",
             "Verbrauchstyp": "Haushalt",
             "Netzebene": "Niederspannung",
             "Standardprodukt": "Nein"

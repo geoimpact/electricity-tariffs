@@ -2,6 +2,154 @@
     "Netzbetreiber": "Unknown",
     "Produkte": [
         {
+            "Name": "TARIFFA 7SPR",
+            "Beschreibung": "",
+            "Komponenten": [
+                {
+                    "Name": "energy",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Energie",
+                    "Menge": "10.34 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "grid_usage",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/Monat",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "20 CHF/month",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "system_services",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Menge": "0.75 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "system_services",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Menge": "1.20 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "renewable_energy_contribution",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Energie",
+                    "Menge": "2.30 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "public_domain_fee",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "weitere Abgaben",
+                    "Menge": "0.93 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "renewable_energy_fund",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "weitere Abgaben",
+                    "Menge": "1.20 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                }
+            ],
+            "Gültigkeit": "annual",
+            "Verbrauchskategorie": "",
+            "Verbrauchstyp": "Haushalt",
+            "Netzebene": "Niederspannung",
+            "Standardprodukt": "Ja"
+        },
+        {
+            "Name": "TARIFFA 7SSC",
+            "Beschreibung": "",
+            "Komponenten": [
+                {
+                    "Name": "energy",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Energie",
+                    "Menge": "10.34 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "grid_usage",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/Monat",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "20 CHF/month",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "system_services",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Menge": "0.75 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "system_services",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Menge": "1.20 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "renewable_energy_contribution",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Energie",
+                    "Menge": "2.30 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "public_domain_fee",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "weitere Abgaben",
+                    "Menge": "0.93 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "renewable_energy_fund",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "weitere Abgaben",
+                    "Menge": "1.20 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                }
+            ],
+            "Gültigkeit": "annual",
+            "Verbrauchskategorie": "",
+            "Verbrauchstyp": "Haushalt",
+            "Netzebene": "Niederspannung",
+            "Standardprodukt": "Ja"
+        },
+        {
             "Name": "TARIFFA 7S05",
             "Beschreibung": "",
             "Komponenten": [
@@ -17,32 +165,41 @@
                 {
                     "Name": "grid_usage",
                     "Beschreibung": "",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "8.51 cts/kWh",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": ""
-                },
-                {
-                    "Name": "grid_usage",
-                    "Beschreibung": "",
                     "Einheit": "CHF/Monat",
-                    "Unterkategorie": "Grundpreis Netz inkl. Messung, Zählermiete, Abrechnung",
+                    "Unterkategorie": "Netznutzung",
                     "Menge": "8 CHF/month",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "taxes",
+                    "Name": "system_services",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
-                    "Unterkategorie": "weitere Abgaben",
+                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Menge": "0.75 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "system_services",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Menge": "1.20 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "renewable_energy_contribution",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Energie",
                     "Menge": "2.30 cts/kWh",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "taxes",
+                    "Name": "public_domain_fee",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
@@ -51,7 +208,7 @@
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "taxes",
+                    "Name": "renewable_energy_fund",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
@@ -60,7 +217,7 @@
                     "Tarifzeiten": ""
                 }
             ],
-            "Gültigkeit": "",
+            "Gültigkeit": "semiannual",
             "Verbrauchskategorie": "",
             "Verbrauchstyp": "Haushalt",
             "Netzebene": "Niederspannung",
@@ -76,56 +233,65 @@
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Energie",
                     "Menge": "10.34 cts/kWh",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": ""
-                },
-                {
-                    "Name": "grid_usage",
-                    "Beschreibung": "",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "10.64 cts/kWh",
-                    "Tariftyp": "Einfachtarif",
+                    "Tariftyp": "Doppeltarif",
                     "Tarifzeiten": ""
                 },
                 {
                     "Name": "grid_usage",
                     "Beschreibung": "",
                     "Einheit": "CHF/Monat",
-                    "Unterkategorie": "Grundpreis Netz inkl. Messung, Zählermiete, Abrechnung",
+                    "Unterkategorie": "Netznutzung",
                     "Menge": "8 CHF/month",
-                    "Tariftyp": "Einfachtarif",
+                    "Tariftyp": "Doppeltarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "taxes",
+                    "Name": "system_services",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
-                    "Unterkategorie": "weitere Abgaben",
-                    "Menge": "2.30 cts/kWh",
-                    "Tariftyp": "Einfachtarif",
+                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Menge": "0.75 cts/kWh",
+                    "Tariftyp": "Doppeltarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "taxes",
+                    "Name": "system_services",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Menge": "1.20 cts/kWh",
+                    "Tariftyp": "Doppeltarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "renewable_energy_contribution",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Energie",
+                    "Menge": "2.30 cts/kWh",
+                    "Tariftyp": "Doppeltarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "public_domain_fee",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
                     "Menge": "0.93 cts/kWh",
-                    "Tariftyp": "Einfachtarif",
+                    "Tariftyp": "Doppeltarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "taxes",
+                    "Name": "renewable_energy_fund",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
                     "Menge": "1.20 cts/kWh",
-                    "Tariftyp": "Einfachtarif",
+                    "Tariftyp": "Doppeltarif",
                     "Tarifzeiten": ""
                 }
             ],
-            "Gültigkeit": "",
+            "Gültigkeit": "semiannual",
             "Verbrauchskategorie": "",
             "Verbrauchstyp": "Haushalt",
             "Netzebene": "Niederspannung",
@@ -140,39 +306,48 @@
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Energie",
-                    "Menge": "Peak 17.02 cts/kWh, Off Peak 11.66 cts/kWh",
+                    "Menge": "peak_price: 17.02 cts/kWh, off_peak_price: 11.66 cts/kWh",
                     "Tariftyp": "Doppeltarif",
                     "Tarifzeiten": ""
                 },
                 {
                     "Name": "grid_usage",
                     "Beschreibung": "",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "4.50 cts/kWh",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": ""
-                },
-                {
-                    "Name": "grid_usage",
-                    "Beschreibung": "",
                     "Einheit": "CHF/Monat",
-                    "Unterkategorie": "Grundpreis Netz inkl. Messung, Zählermiete, Abrechnung",
+                    "Unterkategorie": "Netznutzung",
                     "Menge": "1,000 CHF/month",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "taxes",
+                    "Name": "system_services",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
-                    "Unterkategorie": "weitere Abgaben",
+                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Menge": "0.75 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "system_services",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Menge": "1.20 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "renewable_energy_contribution",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Energie",
                     "Menge": "2.30 cts/kWh",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "taxes",
+                    "Name": "public_domain_fee",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
@@ -181,7 +356,7 @@
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "taxes",
+                    "Name": "renewable_energy_fund",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
@@ -190,7 +365,7 @@
                     "Tarifzeiten": ""
                 }
             ],
-            "Gültigkeit": "",
+            "Gültigkeit": "monthly",
             "Verbrauchskategorie": "",
             "Verbrauchstyp": "Haushalt",
             "Netzebene": "Niederspannung",
@@ -205,39 +380,48 @@
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Energie",
-                    "Menge": "Peak 17.02 cts/kWh, Off Peak 11.66 cts/kWh",
+                    "Menge": "peak_price: 17.02 cts/kWh, off_peak_price: 11.66 cts/kWh",
                     "Tariftyp": "Doppeltarif",
                     "Tarifzeiten": ""
                 },
                 {
                     "Name": "grid_usage",
                     "Beschreibung": "",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "3.79 cts/kWh",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": ""
-                },
-                {
-                    "Name": "grid_usage",
-                    "Beschreibung": "",
                     "Einheit": "CHF/Monat",
-                    "Unterkategorie": "Grundpreis Netz inkl. Messung, Zählermiete, Abrechnung",
+                    "Unterkategorie": "Netznutzung",
                     "Menge": "1,000 CHF/month",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "taxes",
+                    "Name": "system_services",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
-                    "Unterkategorie": "weitere Abgaben",
+                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Menge": "0.75 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "system_services",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Menge": "1.20 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "renewable_energy_contribution",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Energie",
                     "Menge": "2.30 cts/kWh",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "taxes",
+                    "Name": "public_domain_fee",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
@@ -246,7 +430,7 @@
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "taxes",
+                    "Name": "renewable_energy_fund",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
@@ -255,7 +439,7 @@
                     "Tarifzeiten": ""
                 }
             ],
-            "Gültigkeit": "",
+            "Gültigkeit": "monthly",
             "Verbrauchskategorie": "",
             "Verbrauchstyp": "Haushalt",
             "Netzebene": "Niederspannung",
@@ -270,39 +454,48 @@
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Energie",
-                    "Menge": "Peak 17.02 cts/kWh, Off Peak 11.66 cts/kWh",
+                    "Menge": "peak_price: 17.02 cts/kWh, off_peak_price: 11.66 cts/kWh",
                     "Tariftyp": "Doppeltarif",
                     "Tarifzeiten": ""
                 },
                 {
                     "Name": "grid_usage",
                     "Beschreibung": "",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "3.44 cts/kWh",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": ""
-                },
-                {
-                    "Name": "grid_usage",
-                    "Beschreibung": "",
                     "Einheit": "CHF/Monat",
-                    "Unterkategorie": "Grundpreis Netz inkl. Messung, Zählermiete, Abrechnung",
+                    "Unterkategorie": "Netznutzung",
                     "Menge": "1,000 CHF/month",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "taxes",
+                    "Name": "system_services",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
-                    "Unterkategorie": "weitere Abgaben",
+                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Menge": "0.75 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "system_services",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Menge": "1.20 cts/kWh",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "renewable_energy_contribution",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Energie",
                     "Menge": "2.30 cts/kWh",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "taxes",
+                    "Name": "public_domain_fee",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
@@ -311,7 +504,7 @@
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "taxes",
+                    "Name": "renewable_energy_fund",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
@@ -320,7 +513,7 @@
                     "Tarifzeiten": ""
                 }
             ],
-            "Gültigkeit": "",
+            "Gültigkeit": "monthly",
             "Verbrauchskategorie": "",
             "Verbrauchstyp": "Haushalt",
             "Netzebene": "Niederspannung",

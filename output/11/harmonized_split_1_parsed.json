@@ -12,7 +12,7 @@
                     "Unterkategorie": "Energie",
                     "Menge": "",
                     "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Hochtarif"
+                    "Tarifzeiten": "Hochtarif: Von 00:00 bis 01:00: 17.85, Von 01:00 bis 02:00: 14.80, Von 02:00 bis 06:00: 14.60"
                 },
                 {
                     "Name": "Energie",
@@ -21,7 +21,7 @@
                     "Unterkategorie": "Energie",
                     "Menge": "",
                     "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Niedertarif"
+                    "Tarifzeiten": "Niedertarif: Von 00:00 bis 01:00: 20.85, Von 01:00 bis 02:00: 17.80, Von 02:00 bis 06:00: 17.60"
                 },
                 {
                     "Name": "Netznutzung",
@@ -30,7 +30,7 @@
                     "Unterkategorie": "Netznutzung",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Grundpreis je Messstelle"
+                    "Tarifzeiten": "Grundpreis je Messstelle: 8.00"
                 },
                 {
                     "Name": "Netznutzung",
@@ -39,7 +39,7 @@
                     "Unterkategorie": "Netznutzung",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Leistungs-preis"
+                    "Tarifzeiten": "Leistungs-preis: 10.90"
                 },
                 {
                     "Name": "Netznutzung",
@@ -48,7 +48,7 @@
                     "Unterkategorie": "Netznutzung",
                     "Menge": "",
                     "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Arbeitspreis Hochtarif"
+                    "Tarifzeiten": "Arbeitspreis Hochtarif: 7.25"
                 },
                 {
                     "Name": "Netznutzung",
@@ -57,7 +57,7 @@
                     "Unterkategorie": "Netznutzung",
                     "Menge": "",
                     "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Arbeitspreis Niedertarif"
+                    "Tarifzeiten": "Arbeitspreis Niedertarif: 6.70"
                 },
                 {
                     "Name": "Abgaben",
@@ -66,7 +66,7 @@
                     "Unterkategorie": "Abgaben an Gemeinde",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Systemdienstleistungen"
+                    "Tarifzeiten": "Systemdienstleistungen Swissgrid: 0.75"
                 },
                 {
                     "Name": "Abgaben",
@@ -75,7 +75,7 @@
                     "Unterkategorie": "Abgaben an Gemeinde",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Netzzuschlag"
+                    "Tarifzeiten": "Netzzuschlag: 2.30"
                 },
                 {
                     "Name": "Abgaben",
@@ -84,7 +84,7 @@
                     "Unterkategorie": "Abgaben an Gemeinde",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Stromreserve"
+                    "Tarifzeiten": "Stromreserve: 1.20"
                 }
             ],
             "Gültigkeit": "",
@@ -104,7 +104,7 @@
                     "Unterkategorie": "Energie",
                     "Menge": "",
                     "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Hochtarif"
+                    "Tarifzeiten": "Hochtarif: Von 00:00 bis 01:00: 19.85, Von 01:00 bis 02:00: 16.80, Von 02:00 bis 06:00: 16.60"
                 },
                 {
                     "Name": "Energie",
@@ -113,7 +113,7 @@
                     "Unterkategorie": "Energie",
                     "Menge": "",
                     "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Niedertarif"
+                    "Tarifzeiten": "Niedertarif: Von 00:00 bis 01:00: 20.85, Von 01:00 bis 02:00: 17.80, Von 02:00 bis 06:00: 17.60"
                 },
                 {
                     "Name": "Netznutzung",
@@ -122,7 +122,7 @@
                     "Unterkategorie": "Netznutzung",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Grundpreis je Messstelle"
+                    "Tarifzeiten": "Grundpreis je Messstelle: 8.00"
                 },
                 {
                     "Name": "Netznutzung",
@@ -131,7 +131,7 @@
                     "Unterkategorie": "Netznutzung",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Leistungs-preis"
+                    "Tarifzeiten": "Leistungs-preis: 10.90"
                 },
                 {
                     "Name": "Netznutzung",
@@ -140,7 +140,7 @@
                     "Unterkategorie": "Netznutzung",
                     "Menge": "",
                     "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Arbeitspreis Hochtarif"
+                    "Tarifzeiten": "Arbeitspreis Hochtarif: 7.25"
                 },
                 {
                     "Name": "Netznutzung",
@@ -149,7 +149,7 @@
                     "Unterkategorie": "Netznutzung",
                     "Menge": "",
                     "Tariftyp": "Doppeltarif",
-                    "Tarifzeiten": "Arbeitspreis Niedertarif"
+                    "Tarifzeiten": "Arbeitspreis Niedertarif: 6.70"
                 },
                 {
                     "Name": "Abgaben",
@@ -158,7 +158,7 @@
                     "Unterkategorie": "Abgaben an Gemeinde",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Systemdienstleistungen"
+                    "Tarifzeiten": "Systemdienstleistungen Swissgrid: 0.75"
                 },
                 {
                     "Name": "Abgaben",
@@ -167,7 +167,7 @@
                     "Unterkategorie": "Abgaben an Gemeinde",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Netzzuschlag"
+                    "Tarifzeiten": "Netzzuschlag: 2.30"
                 },
                 {
                     "Name": "Abgaben",
@@ -176,14 +176,106 @@
                     "Unterkategorie": "Abgaben an Gemeinde",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Stromreserve"
+                    "Tarifzeiten": "Stromreserve: 1.20"
                 }
             ],
             "Gültigkeit": "",
             "Verbrauchskategorie": "",
             "Verbrauchstyp": "Haushalt",
             "Netzebene": "Niederspannung",
-            "Standardprodukt": "Nein"
+            "Standardprodukt": "Ja"
+        },
+        {
+            "Name": "Aarestrom",
+            "Beschreibung": "",
+            "Komponenten": [
+                {
+                    "Name": "Energie",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Energie",
+                    "Menge": "",
+                    "Tariftyp": "Doppeltarif",
+                    "Tarifzeiten": "Hochtarif: Von 00:00 bis 01:00: 20.85, Von 01:00 bis 02:00: 17.80, Von 02:00 bis 06:00: 17.60"
+                },
+                {
+                    "Name": "Energie",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Energie",
+                    "Menge": "",
+                    "Tariftyp": "Doppeltarif",
+                    "Tarifzeiten": "Niedertarif: Von 00:00 bis 01:00: 20.85, Von 01:00 bis 02:00: 17.80, Von 02:00 bis 06:00: 17.60"
+                },
+                {
+                    "Name": "Netznutzung",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/Monat",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": "Grundpreis je Messstelle: 8.00"
+                },
+                {
+                    "Name": "Netznutzung",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/kW/Monat",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": "Leistungs-preis: 10.90"
+                },
+                {
+                    "Name": "Netznutzung",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "",
+                    "Tariftyp": "Doppeltarif",
+                    "Tarifzeiten": "Arbeitspreis Hochtarif: 7.25"
+                },
+                {
+                    "Name": "Netznutzung",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "",
+                    "Tariftyp": "Doppeltarif",
+                    "Tarifzeiten": "Arbeitspreis Niedertarif: 6.70"
+                },
+                {
+                    "Name": "Abgaben",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/Monat",
+                    "Unterkategorie": "Abgaben an Gemeinde",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": "Systemdienstleistungen Swissgrid: 0.75"
+                },
+                {
+                    "Name": "Abgaben",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/Monat",
+                    "Unterkategorie": "Abgaben an Gemeinde",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": "Netzzuschlag: 2.30"
+                },
+                {
+                    "Name": "Abgaben",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/Monat",
+                    "Unterkategorie": "Abgaben an Gemeinde",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": "Stromreserve: 1.20"
+                }
+            ],
+            "Gültigkeit": "",
+            "Verbrauchskategorie": "",
+            "Verbrauchstyp": "Haushalt",
+            "Netzebene": "Niederspannung",
+            "Standardprodukt": "Ja"
         }
     ]
 }

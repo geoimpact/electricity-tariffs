@@ -2,253 +2,118 @@
     "Netzbetreiber": "Unknown",
     "Produkte": [
         {
-            "Name": "Energy Green",
+            "Name": "Energy Grey",
             "Beschreibung": "",
             "Komponenten": [
                 {
-                    "Name": "Energie",
+                    "Name": "energy",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Energie",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Hochtarif"
+                    "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Energie",
+                    "Name": "grid",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/Jahr",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "taxes",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Energie",
+                    "Unterkategorie": "weitere Abgaben",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Niedertarif"
-                },
-                {
-                    "Name": "Netznutzung",
-                    "Beschreibung": "",
-                    "Einheit": "CHF/Monat",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Grundtarif"
-                },
-                {
-                    "Name": "Netznutzung",
-                    "Beschreibung": "",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Arbeit"
-                },
-                {
-                    "Name": "Netznutzung",
-                    "Beschreibung": "",
-                    "Einheit": "CHF/kW/Monat",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Leistung"
-                },
-                {
-                    "Name": "Abgaben",
-                    "Beschreibung": "",
-                    "Einheit": "CHF/Monat",
-                    "Unterkategorie": "Abgaben an Gemeinde",
-                    "Menge": "",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Systemdienstleistungen"
-                },
-                {
-                    "Name": "Abgaben",
-                    "Beschreibung": "",
-                    "Einheit": "CHF/Monat",
-                    "Unterkategorie": "Abgaben an Gemeinde",
-                    "Menge": "",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Gesetzliche Förderabgabe"
-                },
-                {
-                    "Name": "Abgaben",
-                    "Beschreibung": "",
-                    "Einheit": "CHF/Monat",
-                    "Unterkategorie": "Abgaben an Gemeinde",
-                    "Menge": "",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Abgabe an die Gemeinde"
+                    "Tarifzeiten": ""
                 }
             ],
-            "Gültigkeit": "Unknown",
-            "Verbrauchskategorie": "Unknown",
+            "Gültigkeit": "Prices valid from 1st January 2024",
+            "Verbrauchskategorie": "",
             "Verbrauchstyp": "Haushalt",
             "Netzebene": "Niederspannung",
-            "Standardprodukt": "Ja"
+            "Standardprodukt": "Nein"
         },
         {
             "Name": "Energy Blue",
             "Beschreibung": "",
             "Komponenten": [
                 {
-                    "Name": "Energie",
+                    "Name": "energy",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Energie",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Hochtarif"
+                    "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Energie",
+                    "Name": "grid",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/Jahr",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "taxes",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Energie",
+                    "Unterkategorie": "weitere Abgaben",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Niedertarif"
-                },
-                {
-                    "Name": "Netznutzung",
-                    "Beschreibung": "",
-                    "Einheit": "CHF/Monat",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Grundtarif"
-                },
-                {
-                    "Name": "Netznutzung",
-                    "Beschreibung": "",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Arbeit"
-                },
-                {
-                    "Name": "Netznutzung",
-                    "Beschreibung": "",
-                    "Einheit": "CHF/kW/Monat",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Leistung"
-                },
-                {
-                    "Name": "Abgaben",
-                    "Beschreibung": "",
-                    "Einheit": "CHF/Monat",
-                    "Unterkategorie": "Abgaben an Gemeinde",
-                    "Menge": "",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Systemdienstleistungen"
-                },
-                {
-                    "Name": "Abgaben",
-                    "Beschreibung": "",
-                    "Einheit": "CHF/Monat",
-                    "Unterkategorie": "Abgaben an Gemeinde",
-                    "Menge": "",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Gesetzliche Förderabgabe"
-                },
-                {
-                    "Name": "Abgaben",
-                    "Beschreibung": "",
-                    "Einheit": "CHF/Monat",
-                    "Unterkategorie": "Abgaben an Gemeinde",
-                    "Menge": "",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Abgabe an die Gemeinde"
+                    "Tarifzeiten": ""
                 }
             ],
-            "Gültigkeit": "Unknown",
-            "Verbrauchskategorie": "Unknown",
+            "Gültigkeit": "Prices valid from 1st January 2024",
+            "Verbrauchskategorie": "",
             "Verbrauchstyp": "Haushalt",
             "Netzebene": "Niederspannung",
-            "Standardprodukt": "Ja"
+            "Standardprodukt": "Nein"
         },
         {
-            "Name": "Energy Grey",
+            "Name": "Energy Green",
             "Beschreibung": "",
             "Komponenten": [
                 {
-                    "Name": "Energie",
+                    "Name": "energy",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Energie",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Hochtarif"
+                    "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Energie",
+                    "Name": "grid",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/Jahr",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "taxes",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Energie",
+                    "Unterkategorie": "weitere Abgaben",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Niedertarif"
-                },
-                {
-                    "Name": "Netznutzung",
-                    "Beschreibung": "",
-                    "Einheit": "CHF/Monat",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Grundtarif"
-                },
-                {
-                    "Name": "Netznutzung",
-                    "Beschreibung": "",
-                    "Einheit": "Rp./kWh",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Arbeit"
-                },
-                {
-                    "Name": "Netznutzung",
-                    "Beschreibung": "",
-                    "Einheit": "CHF/kW/Monat",
-                    "Unterkategorie": "Netznutzung",
-                    "Menge": "",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Leistung"
-                },
-                {
-                    "Name": "Abgaben",
-                    "Beschreibung": "",
-                    "Einheit": "CHF/Monat",
-                    "Unterkategorie": "Abgaben an Gemeinde",
-                    "Menge": "",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Systemdienstleistungen"
-                },
-                {
-                    "Name": "Abgaben",
-                    "Beschreibung": "",
-                    "Einheit": "CHF/Monat",
-                    "Unterkategorie": "Abgaben an Gemeinde",
-                    "Menge": "",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Gesetzliche Förderabgabe"
-                },
-                {
-                    "Name": "Abgaben",
-                    "Beschreibung": "",
-                    "Einheit": "CHF/Monat",
-                    "Unterkategorie": "Abgaben an Gemeinde",
-                    "Menge": "",
-                    "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Abgabe an die Gemeinde"
+                    "Tarifzeiten": ""
                 }
             ],
-            "Gültigkeit": "Unknown",
-            "Verbrauchskategorie": "Unknown",
+            "Gültigkeit": "Prices valid from 1st January 2024",
+            "Verbrauchskategorie": "",
             "Verbrauchstyp": "Haushalt",
             "Netzebene": "Niederspannung",
-            "Standardprodukt": "Ja"
+            "Standardprodukt": "Nein"
         }
     ]
 }

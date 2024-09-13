@@ -2,8 +2,8 @@
     "Energielieferung": {
         "Sommer": {
             "Montag-Freitag": {
-                "Von 00:00 bis 01:00 in Rp./kWh": 0,
-                "Von 01:00 bis 02:00 in Rp./kWh": 0,
+                "Von 00:00 bis 01:00 in Rp./kWh": 22.35,
+                "Von 01:00 bis 02:00 in Rp./kWh": 20.4,
                 "Von 02:00 bis 03:00 in Rp./kWh": 0,
                 "Von 03:00 bis 04:00 in Rp./kWh": 0,
                 "Von 04:00 bis 05:00 in Rp./kWh": 0,

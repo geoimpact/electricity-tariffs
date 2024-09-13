@@ -1,5 +1,5 @@
 {
-    "Netzbetreiber": "",
+    "Netzbetreiber": "Unknown",
     "Produkte": [
         {
             "Name": "Product A",
@@ -12,7 +12,7 @@
                     "Unterkategorie": "Energie",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Hochtarif: Von 00:00 bis 01:00: 20, Von 01:00 bis 02:00: 18"
+                    "Tarifzeiten": "Hochtarif: Von 00:00 bis 01:00 in Rp./kWh: 20, Von 01:00 bis 02:00 in Rp./kWh: 18"
                 },
                 {
                     "Name": "Energie",
@@ -21,7 +21,7 @@
                     "Unterkategorie": "Energie",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Niedertarif: Von 00:00 bis 01:00: 15, Von 01:00 bis 02:00: 14"
+                    "Tarifzeiten": "Niedertarif: Von 00:00 bis 01:00 in Rp./kWh: 15, Von 01:00 bis 02:00 in Rp./kWh: 12"
                 },
                 {
                     "Name": "Netznutzung",
@@ -30,16 +30,16 @@
                     "Unterkategorie": "Netznutzung",
                     "Menge": "100",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Preis: 5"
+                    "Tarifzeiten": "Preis in Rp./kWh: 5"
                 },
                 {
                     "Name": "Abgaben",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
-                    "Menge": "",
+                    "Menge": "50",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Tax A: Menge: 50, Preis: 2; Tax B: Menge: 30, Preis: 1"
+                    "Tarifzeiten": "Preis in Rp./kWh: 3"
                 }
             ],
             "Gültigkeit": "",
@@ -59,7 +59,7 @@
                     "Unterkategorie": "Energie",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Hochtarif: Von 00:00 bis 01:00: 22, Von 01:00 bis 02:00: 19"
+                    "Tarifzeiten": "Hochtarif: Von 00:00 bis 01:00 in Rp./kWh: 22, Von 01:00 bis 02:00 in Rp./kWh: 19"
                 },
                 {
                     "Name": "Energie",
@@ -68,7 +68,7 @@
                     "Unterkategorie": "Energie",
                     "Menge": "",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Niedertarif: Von 00:00 bis 01:00: 16, Von 01:00 bis 02:00: 15"
+                    "Tarifzeiten": "Niedertarif: Von 00:00 bis 01:00 in Rp./kWh: 16, Von 01:00 bis 02:00 in Rp./kWh: 14"
                 },
                 {
                     "Name": "Netznutzung",
@@ -77,16 +77,16 @@
                     "Unterkategorie": "Netznutzung",
                     "Menge": "100",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Preis: 6"
+                    "Tarifzeiten": "Preis in Rp./kWh: 6"
                 },
                 {
                     "Name": "Abgaben",
                     "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
-                    "Menge": "",
+                    "Menge": "50",
                     "Tariftyp": "Einfachtarif",
-                    "Tarifzeiten": "Tax C: Menge: 40, Preis: 3"
+                    "Tarifzeiten": "Preis in Rp./kWh: 4"
                 }
             ],
             "Gültigkeit": "",

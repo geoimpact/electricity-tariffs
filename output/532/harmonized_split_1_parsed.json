@@ -1,0 +1,265 @@
+{
+    "Netzbetreiber": "Unbekannt",
+    "Produkte": [
+        {
+            "Name": "Expert",
+            "Beschreibung": "Das Energieprodukt für Kunden mit einem Jahresverbrauch über 50‘000 kWh - 100‘000 kWh mit Leistungsmessung",
+            "Komponenten": [
+                {
+                    "Name": "net_usage",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "T1",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": "summer: 8.50, winter: 8.50"
+                },
+                {
+                    "Name": "net_usage",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "T2",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": "summer: 5.40, winter: 5.40"
+                },
+                {
+                    "Name": "blind_power",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kVarh",
+                    "Unterkategorie": "Blindenergie",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "SDL",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "reserve",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Stromreserve",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "monthly_fee",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/Monat",
+                    "Unterkategorie": "Grundpreis Netz inkl. Messung, Zählermiete, Abrechnung",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                }
+            ],
+            "Gültigkeit": "Unbekannt",
+            "Verbrauchskategorie": "Unbekannt",
+            "Verbrauchstyp": "Haushalt",
+            "Netzebene": "Niederspannung",
+            "Standardprodukt": "Ja"
+        },
+        {
+            "Name": "Expert Sprint",
+            "Beschreibung": "Das Energieprodukt für Kunden mit einem Jahresverbrauch über 100‘000 kWh mit Leistungsmessung",
+            "Komponenten": [
+                {
+                    "Name": "net_usage",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "T1",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": "summer: 7.80, winter: 7.80"
+                },
+                {
+                    "Name": "net_usage",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "T2",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": "summer: 5.20, winter: 5.20"
+                },
+                {
+                    "Name": "blind_power",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kVarh",
+                    "Unterkategorie": "Blindenergie",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "SDL",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "reserve",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Stromreserve",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "monthly_fee",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/Monat",
+                    "Unterkategorie": "Grundpreis Netz inkl. Messung, Zählermiete, Abrechnung",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                }
+            ],
+            "Gültigkeit": "Unbekannt",
+            "Verbrauchskategorie": "Unbekannt",
+            "Verbrauchstyp": "Haushalt",
+            "Netzebene": "Niederspannung",
+            "Standardprodukt": "Nein"
+        },
+        {
+            "Name": "Premium",
+            "Beschreibung": "Das Energieprodukt für Kunden mit einem jährlichen Gesamtenergiebezug bis 50‘000 kWh.",
+            "Komponenten": [
+                {
+                    "Name": "net_usage",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "T1",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": "summer: 13.80, winter: 13.80"
+                },
+                {
+                    "Name": "net_usage",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "T2",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": "summer: 9.00, winter: 9.00"
+                },
+                {
+                    "Name": "blind_power",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kVarh",
+                    "Unterkategorie": "Blindenergie",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "SDL",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "reserve",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Stromreserve",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "monthly_fee",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/Monat",
+                    "Unterkategorie": "Grundpreis Netz inkl. Messung, Zählermiete, Abrechnung",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                }
+            ],
+            "Gültigkeit": "Unbekannt",
+            "Verbrauchskategorie": "Unbekannt",
+            "Verbrauchstyp": "Haushalt",
+            "Netzebene": "Niederspannung",
+            "Standardprodukt": "Nein"
+        },
+        {
+            "Name": "Industriestrom Sprint",
+            "Beschreibung": "Das Energieprodukt für MS-Kunden mit einem Jahresverbrauch über 100‘000 kWh mit Leistungsmessung",
+            "Komponenten": [
+                {
+                    "Name": "net_usage",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "T1",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": "summer: 4.40, winter: 4.40"
+                },
+                {
+                    "Name": "net_usage",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "T2",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": "summer: 3.10, winter: 3.10"
+                },
+                {
+                    "Name": "blind_power",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kVarh",
+                    "Unterkategorie": "Blindenergie",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "SDL",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "reserve",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Stromreserve",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "monthly_fee",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/Monat",
+                    "Unterkategorie": "Grundpreis Netz inkl. Messung, Zählermiete, Abrechnung",
+                    "Menge": "",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                }
+            ],
+            "Gültigkeit": "Unbekannt",
+            "Verbrauchskategorie": "Unbekannt",
+            "Verbrauchstyp": "Gewerbe & Industrie",
+            "Netzebene": "Mittelspannung",
+            "Standardprodukt": "Nein"
+        }
+    ]
+}

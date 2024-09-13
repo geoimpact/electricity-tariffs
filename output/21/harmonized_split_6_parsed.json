@@ -11,7 +11,11 @@
             "Leistungspreis in CHF": 0,
             "ZusätzlicherRabatt in Rp./kWh": 0
         },
-        "Abgaben in Rp./kWh": [],
+        "Abgaben in Rp./kWh": [
+            0,
+            2.3,
+            0.75
+        ],
         "Netzuschlag in Rp./kWh": 0,
         "Stromreserve/Winterstromreserve in in Rp./kWh": 0
     }

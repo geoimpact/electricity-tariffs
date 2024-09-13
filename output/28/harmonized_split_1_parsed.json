@@ -1,49 +1,49 @@
 {
-    "Netzbetreiber": "Standard",
+    "Netzbetreiber": "Unknown",
     "Produkte": [
         {
-            "Name": "Standardtarif",
-            "Beschreibung": "Standardtarif für Haushalte und kleine Unternehmen.",
+            "Name": "Clienti con consumo fino 50'000 kWh/anno",
+            "Beschreibung": "",
             "Komponenten": [
                 {
-                    "Name": "Grundgebühr",
-                    "Beschreibung": "Monatliche Grundgebühr für den Tarif.",
+                    "Name": "Netznutzung",
+                    "Beschreibung": "",
                     "Einheit": "CHF/Monat",
-                    "Unterkategorie": "Grundpreis Energie",
+                    "Unterkategorie": "Netznutzung",
                     "Menge": "6.00",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Transportgebühr Tag",
-                    "Beschreibung": "Gebühr für den Transport von Energie während des Tages.",
-                    "Einheit": "CHF/kW/Monat",
+                    "Name": "Tariffa trasporto diurna",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
                     "Unterkategorie": "Netznutzung",
                     "Menge": "8.90",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Transportgebühr Nacht",
-                    "Beschreibung": "Gebühr für den Transport von Energie während der Nacht.",
-                    "Einheit": "CHF/kW/Monat",
+                    "Name": "Tariffa trasporto notturna",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
                     "Unterkategorie": "Netznutzung",
                     "Menge": "8.90",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Leistungsgebühr",
-                    "Beschreibung": "Gebühr basierend auf der maximalen Leistung.",
+                    "Name": "Tariffa potenza",
+                    "Beschreibung": "",
                     "Einheit": "CHF/kW/Monat",
-                    "Unterkategorie": "Leistungspreis",
+                    "Unterkategorie": "Netznutzung",
                     "Menge": "1.85",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Energiepreis Tag",
-                    "Beschreibung": "Preis für den Energieverbrauch während des Tages.",
+                    "Name": "Energie",
+                    "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Energie",
                     "Menge": "13.90",
@@ -51,8 +51,8 @@
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Energiepreis Nacht",
-                    "Beschreibung": "Preis für den Energieverbrauch während der Nacht.",
+                    "Name": "Tariffa energia notturna",
+                    "Beschreibung": "",
                     "Einheit": "Rp./kWh",
                     "Unterkategorie": "Energie",
                     "Menge": "13.90",
@@ -60,74 +60,202 @@
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Erneuerbare Energie",
-                    "Beschreibung": "Zusätzliche Gebühr für erneuerbare Energiequellen.",
-                    "Einheit": "CHF/kW/Monat",
-                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Name": "Tariffa energia rinnovabile locale -Tiacqua",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Energie",
                     "Menge": "0.60",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Systemgebühr",
-                    "Beschreibung": "Gebühr für die Systemdienstleistungen.",
-                    "Einheit": "CHF/kW/Monat",
-                    "Unterkategorie": "Systemdienstleistungen swissgrid (SDL)",
+                    "Name": "Abgaben",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Abgaben an Gemeinde",
                     "Menge": "0.75",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Bundesbeitrag",
-                    "Beschreibung": "Beitrag an den Bund.",
-                    "Einheit": "CHF/kW/Monat",
-                    "Unterkategorie": "weitere Abgaben",
+                    "Name": "Contributo federale per energie rinnovabili (RIC)",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Abgaben an Kanton",
                     "Menge": "2.20",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Wasserkraftgebühr",
-                    "Beschreibung": "Gebühr für die Nutzung von Wasserkraft.",
-                    "Einheit": "CHF/kW/Monat",
+                    "Name": "Risanamento forza idrica",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
                     "Menge": "0.10",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Öffentliches Domänengebühr",
-                    "Beschreibung": "Gebühr für die Nutzung öffentlicher Domänen.",
-                    "Einheit": "CHF/kW/Monat",
+                    "Name": "Tassa per l'utilizzo del demanio pubblico",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
                     "Menge": "0.93",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Kantonaler Fonds",
-                    "Beschreibung": "Beitrag an den kantonalen Fonds.",
-                    "Einheit": "CHF/kW/Monat",
+                    "Name": "Fondo cantonale per le energie rinnovabili (FER)",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
                     "Menge": "1.20",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 },
                 {
-                    "Name": "Stromreserve",
-                    "Beschreibung": "Gebühr für die Stromreserve.",
-                    "Einheit": "CHF/kW/Monat",
+                    "Name": "Riserva di energia elettrica",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
                     "Unterkategorie": "weitere Abgaben",
                     "Menge": "1.20",
                     "Tariftyp": "Einfachtarif",
                     "Tarifzeiten": ""
                 }
             ],
-            "Gültigkeit": "Jährlich",
-            "Verbrauchskategorie": "Haushalt",
+            "Gültigkeit": "Unknown",
+            "Verbrauchskategorie": "Unknown",
             "Verbrauchstyp": "Haushalt",
             "Netzebene": "Niederspannung",
             "Standardprodukt": "Ja"
+        },
+        {
+            "Name": "Clienti con consumo superiore 50'000 kWh/anno",
+            "Beschreibung": "",
+            "Komponenten": [
+                {
+                    "Name": "Netznutzung",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/Monat",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "80.00",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "Tariffa trasporto diurna",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "8.40",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "Tariffa trasporto notturna",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "6.75",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "Tariffa potenza",
+                    "Beschreibung": "",
+                    "Einheit": "CHF/kW/Monat",
+                    "Unterkategorie": "Netznutzung",
+                    "Menge": "7.90",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "Energie",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Energie",
+                    "Menge": "14.10",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "Tariffa energia notturna",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Energie",
+                    "Menge": "10.30",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "Tariffa energia rinnovabile locale -Tiacqua",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Energie",
+                    "Menge": "0.60",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "Abgaben",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Abgaben an Gemeinde",
+                    "Menge": "0.75",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "Contributo federale per energie rinnovabili (RIC)",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "Abgaben an Kanton",
+                    "Menge": "2.20",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "Risanamento forza idrica",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "weitere Abgaben",
+                    "Menge": "0.10",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "Tassa per l'utilizzo del demanio pubblico",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "weitere Abgaben",
+                    "Menge": "0.93",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "Fondo cantonale per le energie rinnovabili (FER)",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "weitere Abgaben",
+                    "Menge": "1.20",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                },
+                {
+                    "Name": "Riserva di energia elettrica",
+                    "Beschreibung": "",
+                    "Einheit": "Rp./kWh",
+                    "Unterkategorie": "weitere Abgaben",
+                    "Menge": "1.20",
+                    "Tariftyp": "Einfachtarif",
+                    "Tarifzeiten": ""
+                }
+            ],
+            "Gültigkeit": "Unknown",
+            "Verbrauchskategorie": "Unknown",
+            "Verbrauchstyp": "Haushalt",
+            "Netzebene": "Niederspannung",
+            "Standardprodukt": "Nein"
         }
     ]
 }

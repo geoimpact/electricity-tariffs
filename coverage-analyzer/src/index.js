@@ -122,9 +122,10 @@ try {
     // Output the filtered file paths
     console.log('Filtered files:', filteredFiles);
     let coverageReport = await analyzeFiles(filteredFiles);
-    console.log("Coverage report ready to be written to disk.");
+    const outputPath = path.resolve(`${__dirname}/../output/coverage-statistics.json`);
+    console.log(`Coverage report ready to be written to disk on ${outputPath.toString()}.`);
     // Ensure directory exists using fs.mkdirSync with recursive option
-    await writeFileSync(path.resolve(`${__dirname}/stats.json`), JSON.stringify(coverageReport, null, 2));
+    await writeFileSync(outputPath, JSON.stringify(coverageReport, null, 2));
 } catch (error) {
     console.error('Error:', error.message);
 }

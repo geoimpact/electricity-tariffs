@@ -216,7 +216,10 @@ docker run -v "$(pwd)/":/usr/src/app --user $(id -u):$(id -g) -it --rm --name el
 We can analyze how many outputs we generated and how many of them are valid and withing the elcom range.
 
 ````bash
+# run it on sample data
 docker run -v "$(pwd)/":/usr/src/app --user $(id -u):$(id -g) -it --rm --name elcom-calculator elcom-calculator python3 ./elcom-calculator/run_validation.py --input_json ./output/21/analysis_21.json --input_elcom ./elcom-calculator/data/sample_elcom_tarife.csv --output_json ./output/21/validation_21.json
+# run it on complete data
+docker run -v "$(pwd)/":/usr/src/app --user $(id -u):$(id -g) -it --rm --name elcom-calculator elcom-calculator python3 ./elcom-calculator/run_validation.py --input_json ./output/21/analysis_21.json --input_elcom ./tmp/elcom_min_max_H4_tarife_2024.csv --output_json ./output/21/validation_21.json
 # docker run -v "$(pwd)/":/usr/src/app --user $(id -u):$(id -g) -it --rm --name elcom-calculator elcom-calculator python3 ./elcom-calculator/run_validation.py --input_json ./output/486/analysis_486.json --input_elcom ./elcom-calculator/data/sample_elcom_tarife.csv --output_json ./output/486/validation_486.json
 ````
 
@@ -231,7 +234,7 @@ cd ..
 docker run -it --rm -v $(pwd):/usr/src/app -w /usr/src/app --user root node:20.16.0-bullseye node coverage-analyzer/src/index.js --directory=./output --pattern="validation_\\d+\\.json"
 ````
 
-## [wip] Batch processing
+## Batch processing
 ````bash
 nohup bash ./process_all.sh > scraping_output.txt 2>&1 &
 tail -f scraping_output.txt

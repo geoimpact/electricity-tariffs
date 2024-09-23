@@ -59,6 +59,15 @@ This project focuses on creating a solution for harmonizing the complex and frag
 
 ## Hacking quickstart
 
+This repository contains 4 scripts that that will do the following, in sequence.
+
+1. Scraper module: downloads the network operator's pdf to ``database/pdf/2024/operator_<elcom-nr>_Tarifblatt_2024.pdf``.
+This Module also queries OpenAI questions of the provided ``--prompt-file=./prompts/final.txt`` propmpt file, according
+to the combined schema definitions of ``schema/split-schema/split-schema-part-<1-6>.json``.
+1. Elcom-calculator module: performs calculations based on the scraper output and generates the ``./output/21/analysis_<elcom-nr>.json`` file
+1. Validation module: performs a validation taking ``./output/21/analysis_<elcom-nr>.json`` as input and generating the ``./output/21/validation_<elcom-nr>.json`` file.
+1. Coverage-analyzer module: Maps and reduces all results to make a quick statistic on how it is doing.
+
 ### Prerequisites
 
 #### Install docker
@@ -92,7 +101,7 @@ Before running the project, copy the ``scraper/.env.sample`` to ``scraper/.env``
 cp scraper/.env.sample scraper/.env
 ````
 
-If you want to run the scraper without docker, you need to provide the correct path to your Chrome or Chromium browser
+If you want to run the scraper **without docker**, you need to provide the correct path to your Chrome or Chromium browser
 executable in the `scraper/.env` file.
 Follow the instructions below to find the path on your system:
 
@@ -191,7 +200,7 @@ CHROME_PATH="C:/Program Files/Google/Chrome/Application/chrome.exe"
 # CHROME_PATH="/usr/bin/google-chrome"
 ```
 
-## scraper
+## scraper module
 
 Install and build the scraper
 ````bash
@@ -207,7 +216,7 @@ docker run -it --rm -v $(pwd):/usr/src/app -w /usr/src/app --user $(id -u):$(id 
 ````
 After we have a ``output/test/21/final-output.json`` file, we analyze it.
 
-## elcom-calculator
+## elcom-calculator module
 
 ````bash
 docker run -v "$(pwd)/":/usr/src/app --user $(id -u):$(id -g) -it --rm --name elcom-calculator elcom-calculator python3 ./elcom-calculator/run.py --input ./output/21/harmonized_21.json --output ./output/21/analysis_21.json
@@ -215,6 +224,7 @@ docker run -v "$(pwd)/":/usr/src/app --user $(id -u):$(id -g) -it --rm --name el
 ````
 We can analyze how many outputs we generated and how many of them are valid and withing the elcom range.
 
+## validator module
 ````bash
 # run it on sample data
 docker run -v "$(pwd)/":/usr/src/app --user $(id -u):$(id -g) -it --rm --name elcom-calculator elcom-calculator python3 ./elcom-calculator/run_validation.py --input_json ./output/21/analysis_21.json --input_elcom ./elcom-calculator/data/sample_elcom_tarife.csv --output_json ./output/21/validation_21.json
@@ -223,7 +233,7 @@ docker run -v "$(pwd)/":/usr/src/app --user $(id -u):$(id -g) -it --rm --name el
 # docker run -v "$(pwd)/":/usr/src/app --user $(id -u):$(id -g) -it --rm --name elcom-calculator elcom-calculator python3 ./elcom-calculator/run_validation.py --input_json ./output/486/analysis_486.json --input_elcom ./elcom-calculator/data/sample_elcom_tarife.csv --output_json ./output/486/validation_486.json
 ````
 
-## coverage-analyzer
+## coverage-analyzer module
 Install and build the coverage-analyzer
 ````bash
 cd coverage-analyzer

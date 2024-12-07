@@ -1,0 +1,304 @@
+{
+    "provider_name": "Services industriels de Delémont",
+    "offers": [
+      {
+        "name": "Topaze",
+        "offer": "SID SIMPLE",
+        "description": "L’électricité composée de solaire local Suisse, d'hydraulique Suisse",
+        "tick": "Day (24 Hours)",
+        "tariffs": [
+          {
+            "type": "fixed",
+            "price": "26.24",
+            "price_with_vat": "28.32",
+            "unit_cost": "cts/kWh"
+          }
+        ],
+        "schedule": [
+          {
+            "start": 0,
+            "end": 24,
+            "tariff": "fixed"
+          }
+        ]
+      },
+      {
+        "name": "Topaze",
+        "offer": "SID DOUBLE",
+        "description": "L’électricité composée de solaire local Suisse, d'hydraulique Suisse",
+        "tick": "Variable (High/Low)",
+        "tariffs": [
+          {
+            "type": "high",
+            "price": "28.72",
+            "price_with_vat": "31.00",
+            "unit_cost": "cts/kWh"
+          },
+          {
+            "type": "low",
+            "price": "21.56",
+            "price_with_vat": "23.26",
+            "unit_cost": "cts/kWh"
+          }
+        ],
+        "schedule": [
+          {
+            "start": 0,
+            "end": 7,
+            "tariff": "low"
+          },
+          {
+            "start": 7,
+            "end": 21,
+            "tariff": "high"
+          },
+          {
+            "start": 21,
+            "end": 24,
+            "tariff": "low"
+          }
+        ]
+      },
+      {
+        "name": "Topaze",
+        "offer": "SID INTERRUPTIBLE",
+        "description": "L’électricité composée de solaire local Suisse, d'hydraulique Suisse",
+        "tick": "Variable (High/Low)",
+        "tariffs": [
+          {
+            "type": "high",
+            "price": "24.25",
+            "price_with_vat": "26.17",
+            "unit_cost": "cts/kWh"
+          },
+          {
+            "type": "low",
+            "price": "19.75",
+            "price_with_vat": "21.30",
+            "unit_cost": "cts/kWh"
+          }
+        ],
+        "schedule": [
+          {
+            "start": 0,
+            "end": 7,
+            "tariff": "low"
+          },
+          {
+            "start": 7,
+            "end": 21,
+            "tariff": "high"
+          },
+          {
+            "start": 21,
+            "end": 24,
+            "tariff": "low"
+          }
+        ]
+      },
+      {
+        "name": "Ambre",
+        "offer": "SID SIMPLE",
+        "description": "L’électricité composée de solaire local",
+        "tick": "Day (24 Hours)",
+        "tariffs": [
+          {
+            "type": "fixed",
+            "price": "28.26",
+            "price_with_vat": "30.50",
+            "unit_cost": "cts/kWh"
+          }
+        ],
+        "schedule": [
+          {
+            "start": 0,
+            "end": 24,
+            "tariff": "fixed"
+          }
+        ]
+      },
+      {
+        "name": "Ambre",
+        "offer": "SID DOUBLE",
+        "description": "L’électricité composée de solaire local",
+        "tick": "Variable (High/Low)",
+        "tariffs": [
+          {
+            "type": "high",
+            "price": "30.74",
+            "price_with_vat": "33.18",
+            "unit_cost": "cts/kWh"
+          },
+          {
+            "type": "low",
+            "price": "23.58",
+            "price_with_vat": "25.44",
+            "unit_cost": "cts/kWh"
+          }
+        ],
+        "schedule": [
+          {
+            "start": 0,
+            "end": 7,
+            "tariff": "low"
+          },
+          {
+            "start": 7,
+            "end": 21,
+            "tariff": "high"
+          },
+          {
+            "start": 21,
+            "end": 24,
+            "tariff": "low"
+          }
+        ]
+      },
+      {
+        "name": "Ambre",
+        "offer": "SID INTERRUPTIBLE",
+        "description": "L’électricité composée de solaire local",
+        "tick": "Variable (High/Low)",
+        "tariffs": [
+          {
+            "type": "high",
+            "price": "26.27",
+            "price_with_vat": "28.35",
+            "unit_cost": "cts/kWh"
+          },
+          {
+            "type": "low",
+            "price": "21.77",
+            "price_with_vat": "23.48",
+            "unit_cost": "cts/kWh"
+          }
+        ],
+        "schedule": [
+          {
+            "start": 0,
+            "end": 7,
+            "tariff": "low"
+          },
+          {
+            "start": 7,
+            "end": 21,
+            "tariff": "high"
+          },
+          {
+            "start": 21,
+            "end": 24,
+            "tariff": "low"
+          }
+        ]
+      },
+      {
+        "name": "Opale",
+        "offer": "SID SIMPLE",
+        "description": "L’électricité composée d'hydraulique",
+        "tick": "Day (24 Hours)",
+        "tariffs": [
+          {
+            "type": "fixed",
+            "price": "25.94",
+            "price_with_vat": "27.99",
+            "unit_cost": "cts/kWh"
+          }
+        ],
+        "schedule": [
+          {
+            "start": 0,
+            "end": 24,
+            "tariff": "fixed"
+          }
+        ]
+      },
+      {
+        "name": "Opale",
+        "offer": "SID DOUBLE",
+        "description": "L’électricité composée d'hydraulique",
+        "tick": "Variable (High/Low)",
+        "tariffs": [
+          {
+            "type": "high",
+            "price": "28.42",
+            "price_with_vat": "30.67",
+            "unit_cost": "cts/kWh"
+          },
+          {
+            "type": "low",
+            "price": "21.26",
+            "price_with_vat": "22.90",
+            "unit_cost": "cts/kWh"
+          }
+        ],
+        "schedule": [
+          {
+            "start": 0,
+            "end": 7,
+            "tariff": "low"
+          },
+          {
+            "start": 7,
+            "end": 21,
+            "tariff": "high"
+          },
+          {
+            "start": 21,
+            "end": 24,
+            "tariff": "low"
+          }
+        ]
+      },
+      {
+        "name": "Opale",
+        "offer": "SID INTERRUPTIBLE",
+        "description": "L’électricité composée d'hydraulique",
+        "tick": "Variable (High/Low)",
+        "tariffs": [
+          {
+            "type": "high",
+            "price": "23.95",
+            "price_with_vat": "25.84",
+            "unit_cost": "cts/kWh"
+          },
+          {
+            "type": "low",
+            "price": "19.45",
+            "price_with_vat": "20.98",
+            "unit_cost": "cts/kWh"
+          }
+        ],
+        "schedule": [
+          {
+            "start": 0,
+            "end": 7,
+            "tariff": "low"
+          },
+          {
+            "start": 7,
+            "end": 21,
+            "tariff": "high"
+          },
+          {
+            "start": 21,
+            "end": 24,
+            "tariff": "low"
+          }
+        ]
+      },
+      {
+        "name": "AmbreGO",
+        "offer": "L’électricité composée de solaire local",
+        "description": "Disponible par tranche de 100 kWh/an = CHF 2.50 (Hors TVA)",
+        "tariffs": [
+          {
+            "type": "fixed",
+            "price": "2.50",
+            "price_with_vat": "2.50",
+            "unit_cost": "CHF per 100 kWh"
+          }
+        ]
+      }
+    ]
+  }
+  
